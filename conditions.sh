@@ -1,5 +1,5 @@
 #!/bin/bash
-AGE=18
+AGE=20
 if [$AGE -gt 18]; then
     echo "major"
 else
