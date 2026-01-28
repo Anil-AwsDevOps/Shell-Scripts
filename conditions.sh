@@ -1,7 +1,9 @@
 #!/bin/bash
-AGE=20
+AGE=$1
 if [ $AGE -gt 18 ]; then
     echo "major"
-else
+elif [ $AGE -eq 18 ]; then
+    echo "equal to 18"
+else[ $AGE -lt 18 ]; then
     echo "minor"
 fi
