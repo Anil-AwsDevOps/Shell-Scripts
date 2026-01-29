@@ -6,4 +6,4 @@ Y="\e[33m]"
 B="\e[34m]"
 N="\e[0m]"
 
-echo -e "$R hello all, $N i'm learning shell"
+echo -e "$R hello all $N, $Y i'm learning shell $N"
