@@ -11,9 +11,9 @@ if [ $USERID -ne 0 ]; then
 fi
 VALIDATE(){
     if [ $1 -ne 0 ]; then
-        echo "$2 nginx is failure"
+        echo "$2  is failure"
     else
-        echo "$2 nginx is success"
+        echo "$2  is success"
     fi
 }
 
@@ -21,12 +21,12 @@ VALIDATE(){
 
 dnf install nginx -y &>> $LOGS_FILE
 
-VALIDATE $? "installation"
+VALIDATE $? "installation nginx "
 
 dnf install mysql -y &>> $LOGS_FILE
 
-VALIDATE $? "installation"
+VALIDATE $? "installation mysql "
 
 dnf install nodejs -y &>> $LOGS_FILE
 
-VALIDATE $? "installation"
+VALIDATE $? "installation nodejs"
