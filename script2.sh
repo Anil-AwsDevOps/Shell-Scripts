@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-echo "this is script2"
+echo "this is script2 $$"
 
 sh ./script1.sh
 
