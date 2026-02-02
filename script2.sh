@@ -3,4 +3,6 @@
 
 echo "PID of script 2 : $$"
 
-source ./script1.sh 
+sh ./script1.sh
+
+#source ./script1.sh 
