@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-echo "PID of script 2 : $$"
+echo "this is script2"
 
 sh ./script1.sh
 
