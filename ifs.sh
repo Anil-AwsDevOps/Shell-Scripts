@@ -1,5 +1,4 @@
 #!/bin/bash
-
 echo "line1"
 echo "line2"
-echo "line"
+echo "line3"
