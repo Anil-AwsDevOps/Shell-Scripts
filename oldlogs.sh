@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-LOGS_DIR=/home/ec2-user/applogs
+LOGS_DIR=/home/ec2-user/app_logs
 LOGS_FILE="$LOGS_DIR/$0.log"
 
 if [ ! -d $LOGS_DIR ]; then
@@ -19,3 +19,5 @@ while IFS= read -r filepath; do
   rm -f $filepath
   echo "Deleted file: $filepath"
 done <<< $FILES_TO_DELETE
+
+
