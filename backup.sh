@@ -65,7 +65,7 @@ else
         log "Archeival is ... $G SUCCESS $N"
 
         while IFS= read -r filepath; do
-        # Process each line here
+        # Process each line here    
         log "Deleting file: $filepath"
         rm -f $filepath
         log "Deleted file: $filepath"
